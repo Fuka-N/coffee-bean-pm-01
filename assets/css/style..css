@@ -423,46 +423,50 @@ form #btn-send{
 }
 
 
-
-
-
-
-
-
- .country{
+.country{
     width: 85%;
     margin: 4em auto;
 }
 .detail-country{
     background-image: url(../images/country-map.jpg);
-     width: 100%;
-     background-position: center;
+    width: 100%;
+    background-position: center;
     position: relative;
     height: 300px;
-    /* display: inline;
-     gap:20px ; 
-    justify-content: space-around; */
 }
 
 .detail-country p{
-    
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
 }
 .country1{
-     background-color: 255 255 255 0.5; 
-     background-position: left; 
-     height: 250px; 
-     width: 20%; 
-     margin-right: 2%; 
-     text-align: center; 
-     display: flex;
-     
-} 
-span{
-    margin-left: 3em;
-    display: list-item;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
 }
+.origin-box{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1em;
+    border-radius: 10px;
+    width: 25%;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.origin-box h3{
+    margin-bottom: 0.5em;
+}
+.origin-box p{
+    margin: 0;
+    font-size: 0.9em;
+    color: #333;
+}
+
+
+
+
+
+
 
 
 
