@@ -408,19 +408,18 @@ form #btn-send{
 
 .detail-staff {
   margin-top: 2em;
-  background-color: #f2f2f2;
   width: 100%;
   border-radius: 5px;
-  padding: 2em;
+  padding: 0em;
   display: flex;
-  gap: 2em;
+  gap: 1em;
   justify-content: space-between;
   height: auto;
 }
 
 .staff-box {
   background-color: #fff;
-  padding: 1em;
+  padding: 2em;
   border-radius: 10px;
   flex: 1;
   display: flex;
