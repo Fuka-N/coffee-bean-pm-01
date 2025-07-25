@@ -30,6 +30,10 @@ p{
     text-transform: uppercase;
     width: 50%;
     float: left;
+    display: flex;
+  align-items: flex-end;
+  height: 70px;
+  margin: 0;
 }
 .nav h1 a{
     font-family: "Oswald", sans-serif ;
